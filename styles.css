@@ -1,0 +1,162 @@
+ /* exercise 1 styles */
+        .ex-1-main-container {
+            margin-bottom: 75px;
+        }
+
+        #ex-1-container>div.row>div:first-of-type {
+            display: flex;
+        }
+
+        #exercise-1-table>.bg-success {
+            border: 2px solid black;
+            border-radius: 20px 0px 0px 20px;
+            height: 400px;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 2;
+        }
+
+        #exercise-1-table>.bg-primary {
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            font-weight: bold;
+            position: relative;
+            flex-grow: 1;
+        }
+
+        #exercise-1-table>.bg-primary>div {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+
+        #exercise-1-table>div:nth-child(3) {
+            display: flex;
+            flex-direction: column;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-right: 2px solid black;
+            border-radius: 0px 20px 20px 0px;
+            flex-grow: 1;
+        }
+
+        #exercise-1-table>div:nth-child(3) div.row:first-child {
+            background: rgba(255, 211, 14, 0.3);
+            flex-grow: 1;
+            border-radius: 0px 19px 0px 0px;
+        }
+
+        #exercise-1-table>div:nth-child(3) div.row:nth-child(2) {
+            background: rgba(255, 211, 14, 0.6);
+            flex-grow: 1;
+        }
+
+        #exercise-1-table>div:nth-child(3) div.row:last-child {
+            background: rgba(255, 211, 14, 1);
+            flex-grow: 1;
+            border-radius: 0px 0px 19px 0px;
+        }
+
+        /* end of exercise 1 styles */
+
+
+        /* exercise 3 styles */
+        .vid-container {
+            background-color: rgb(241, 241, 241);
+            padding: 1px;
+        }
+
+        .vid-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .vid-container .btn-secondary {
+            background-color: transparent;
+            color: rgb(170, 170, 170);
+            border: 1px solid rgb(170, 170, 170);
+        }
+
+        .vid-container .btn-group {
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
+        }
+
+        .vid-container .btn-group span {
+            margin-left: auto;
+            font-size: smaller;
+            color: rgb(170, 170, 170);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        footer a {
+            display: block;
+            color: rgb(170, 170, 170);
+        }
+
+        /* end of exercise 3 styles */
+
+        /* Sanaz's styles */
+
+        #exe2-title h2 {
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .card-header {
+            font-size: 26px;
+        }
+
+        #price {
+            font-size: 30px;
+        }
+
+        #price-month {
+            color: rgba(0, 0, 0, 0.281);
+            font-size: 28px;
+        }
+
+        .col-md-4.card {
+            border: rgb(34, 28, 28);
+        }
+
+        #exe2-button {
+            margin: 0 auto;
+        }
+
+        #exe4-card {
+
+            margin-bottom: 20px;
+        }
+
+        #exe4-card .card-img-top {
+
+            min-height: 300px;
+        }
+
+        #exe4-heading {
+            text-align: center;
+        }
+
+        #exe4-button {
+            width: 20%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        #exe4-card2 {
+            border: 1px solid rgba(184, 181, 181, 0.685);
+            width: 20rem;
+            margin: 50px 5px;
+        }
+
+        #exe4-card2 .card-header {
+            font-size: 20px;
+        }
