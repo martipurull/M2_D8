@@ -10,6 +10,10 @@
     <title>M2_D8</title>
     <style>
         /* exercise 1 styles */
+        .ex-1-main-container {
+            margin-bottom: 75px;
+        }
+
         #ex-1-container>div.row>div:first-of-type {
             display: flex;
         }
@@ -99,6 +103,7 @@
 
         footer {
             margin-top: 50px;
+            padding-bottom: 30px;
         }
 
         footer a {
@@ -107,76 +112,188 @@
         }
 
         /* end of exercise 3 styles */
+
+        /* Sanaz's styles */
+
+        #exe2-title h2 {
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .card-header {
+            font-size: 26px;
+        }
+
+        #price {
+            font-size: 30px;
+        }
+
+        #price-month {
+            color: rgba(0, 0, 0, 0.281);
+            font-size: 28px;
+        }
+
+        .col-md-4.card {
+            border: rgb(34, 28, 28);
+        }
+
+        #exe2-button {
+            margin: 0 auto;
+        }
+
+        #exe4-card {
+
+            margin-bottom: 20px;
+        }
+
+        #exe4-card .card-img-top {
+
+            min-height: 300px;
+        }
+
+        #exe4-heading {
+            text-align: center;
+        }
+
+        #exe4-button {
+            width: 20%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        #exe4-card2 {
+            border: 1px solid rgba(184, 181, 181, 0.685);
+            width: 20rem;
+            margin: 50px 5px;
+        }
+
+        #exe4-card2 .card-header {
+            font-size: 20px;
+        }
     </style>
 </head>
 
 <body>
     <!-- exercise 1 html -->
-    <div class="container-fluid bg-primary">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary ml-5 px-5">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <div class="d-none">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+    <div class="ex-1-main-container">
+        <div class="container-fluid bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary ml-5 px-5">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
+                        <div class="d-none">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="ex-1-container" class="container">
+            <div id="exercise-1-table" class="row mt-5">
+                <div class="col-6 bg-success text-white text-center">
+                    <div>
+                        First Column <br>
+                        Height 400px <br>
+                        Green-ish background <br>
+                        Text Centered
                     </div>
-                </ul>
-
-            </div>
-        </nav>
-    </div>
-
-    <div id="ex-1-container" class="container">
-        <div id="exercise-1-table" class="row mt-5">
-            <div class="col-6 bg-success text-white text-center">
-                <div>
-                    First Column <br>
-                    Height 400px <br>
-                    Green-ish background <br>
-                    Text Centered
                 </div>
-            </div>
-            <div class="col-3 bg-primary text-white">
-                <div>
-                    Second Column <br>
-                    Text To the bottom <br>
-                    Bold, blueish background
+                <div class="col-3 bg-primary text-white">
+                    <div>
+                        Second Column <br>
+                        Text To the bottom <br>
+                        Bold, blueish background
+                    </div>
                 </div>
-            </div>
-            <div class="col-3 text-center">
-                <div class="row">Third Column Part 1</div>
-                <div class="row">Third Column Part 2</div>
-                <div class="row">Third Column Part 3</div>
+                <div class="col-3 text-center">
+                    <div class="row">Third Column Part 1</div>
+                    <div class="row">Third Column Part 2</div>
+                    <div class="row">Third Column Part 3</div>
+                </div>
             </div>
         </div>
     </div>
     <!-- end of exercise 1 html -->
 
+
+    <!-- exercise 2 html -->
+
+    <div class="container mt-5">
+        <div id="exe2-title">
+            <h2>Prices</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="card mb-3 mx-3">
+                    <div class="card-header">Free</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><span id="price">€0 </span><span id="price-month"> /mo</span></h5>
+                        <p class="card-text">10 users included<br>2 GB of storage <br>Email support<br>Help center
+                            access
+                        </p>
+                    </div>
+                    <button id="exe2-button" type="button" class="btn btn-outline-primary mb-2" style="width: 80%;">Sign
+                        up
+                        for free</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="card mb-3 mx-3">
+                    <div class="card-header">Pro</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><span id="price">€15 </span><span id="price-month"> /mo</span></h5>
+                        <p class="card-text">20 users included<br>10 GB of storage <br>Priority email support<br>Help
+                            center
+                            access</p>
+                    </div>
+                    <button id="exe2-button" type="button" class="btn btn-primary mb-2" style="width: 80%;">Get
+                        started</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="card mb-3">
+                    <div class="card-header">Enterprise</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><span id="price">€29 </span><span id="price-month"> /mo</span></h5>
+                        <p class="card-text">30 users included<br>15 GB of storage <br>Phone and email support<br>Help
+                            center access</p>
+                    </div>
+                    <button id="exe2-button" type="button" class="btn btn-primary mb-2" style="width: 80%;">Contact
+                        us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of exercise 2 html -->
 
 
 
@@ -301,8 +418,108 @@
     </div>
     <!-- end of exercise 3 html -->
 
+    <!-- exercise 4 html -->
 
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mt-5">
+                <h1 id="exe4-heading">Page Heading</h1>
+                <div id="exe4-card" class="card mb-3 mx-3">
+                    <img src="https://images.unsplash.com/photo-1634089916298-9fa27180526c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Post title</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quasi
+                            illo
+                            vero, ut harum sapiente sit consequatur molestiae quae placeat expedita et natus facere.
+                            Iste
+                            aliquam ipsa maiores culpa cum!</p>
+                    </div>
+                    <button id="exe4-button" type="button" class="btn btn-primary">Read more</button>
+                    <div class="card-footer">
+                        <small class="text-muted">Posted on January 10, 2020 by <a href="#">Admin</a></small>
+                    </div>
+                </div>
+                <div id="exe4-card" class="card mb-3 mx-3">
+                    <img src="https://images.unsplash.com/photo-1633993365434-8d9fbfc44a48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Post title</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quasi
+                            illo
+                            vero, ut harum sapiente sit consequatur molestiae quae placeat expedita et natus facere.
+                            Iste
+                            aliquam ipsa maiores culpa cum!</p>
+                    </div>
+                    <button id="exe4-button" type="button" class="btn btn-primary">Read more</button>
+                    <div class="card-footer">
+                        <small class="text-muted">Posted on January 10, 2020 by <a href="#">Admin</a></small>
+                    </div>
+                </div>
+                <div id="exe4-card" class="card mb-3 mx-3">
+                    <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Post title</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quasi
+                            illo
+                            vero, ut harum sapiente sit consequatur molestiae quae placeat expedita et natus facere.
+                            Iste
+                            aliquam ipsa maiores culpa cum!</p>
+                    </div>
+                    <button id="exe4-button" type="button" class="btn btn-primary">Read more</button>
+                    <div class="card-footer">
+                        <small class="text-muted">Posted on January 12, 2020 by <a href="#">Admin</a></small>
+                    </div>
+                </div>
+                <div id="exe4-card" class="card mb-3 mx-3">
+                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1274&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Post title</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quasi
+                            illo
+                            vero, ut harum sapiente sit consequatur molestiae quae placeat expedita et natus facere.
+                            Iste
+                            aliquam ipsa maiores culpa cum!</p>
+                    </div>
+                    <button id="exe4-button" type="button" class="btn btn-primary">Read more</button>
+                    <div class="card-footer">
+                        <small class="text-muted">Posted on January 25, 2020 by <a href="#">Admin</a></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="exe4-card2" class="card mb-3 mx-5">
+                    <div class="card-header">Find my blog</div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                                aria-describedby="search-addon" />
+                            <button type="button" class="btn btn-dark">search</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="exe4-card2" class="card mb-3 mx-5">
+                    <div class="card-header">Categories</div>
+                    <div class="row card-body">
+                        <div class="card-text col-6"><a href="#">Web design<br>Html<br>CSS</a></div>
+                        <div class="card-text col-6"><a href="#">Web design<br>Html<br>CSS</a></div>
+                    </div>
+                </div>
+                <div id="exe4-card2" class="card mb-3 mx-5">
+                    <div class="card-header">Widgets</div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                            accusantium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end of exercise 4 html -->
 
 
 
